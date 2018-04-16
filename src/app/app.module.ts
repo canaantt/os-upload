@@ -8,10 +8,10 @@ import { FilesComponent } from './files/files.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PermissionsComponent } from './permissions/permissions.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { ProjectDashboardComponent } from './project-dashboard/project-dashboard.component';
 import { RegisterComponent } from './register/register.component';
 import { UsersComponent } from './users/users.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
+import { HelpComponent } from './help/help.component';
 
 
 @NgModule({
@@ -22,10 +22,10 @@ import { UserDetailComponent } from './user-detail/user-detail.component';
     NavbarComponent,
     PermissionsComponent,
     ProjectsComponent,
-    ProjectDashboardComponent,
     RegisterComponent,
     UsersComponent,
-    UserDetailComponent
+    UserDetailComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule

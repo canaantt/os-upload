@@ -1,0 +1,78 @@
+/**
+ *  If you want to override some bootstrap variables, you have to change values here.
+ *  The list of variables are listed here bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+ */
+
+@import 'vars';
+
+/**
+ *  Do not remove the comments below. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+
+// bower:scss
+// endbower
+body,
+html {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    background: #fff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// SCSS Extends
+.container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+// all links
+#{$a-tags} {
+    color: $color-onco-blue;
+    text-decoration: none;
+}
+
+#{$a-tags-hover} {
+    color: $color-link;
+}
+
+.tooltip {
+    z-index: 99999 !important;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/**
+ *  Do not remove the comments below. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+
+// injector
+// endinjector
